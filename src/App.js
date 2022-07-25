@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Nav from "./components/Navbar/Nav";
+import data from "./data";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Skills from "./Pages/Skills";
+import Serices from "./Pages/Services";
+import Projects from "./Pages/Projects";
+import Footer from "./components/Footer/footer";
+import Contact from "./Pages/Contact";
+import {Link} from 'react-scroll';
+import {FcEngineering} from 'react-icons/fc';
 
 function App() {
+
+
+  const [visible, setVisible] = useState(false)
+  
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 300){
+      setVisible(true)
+    } 
+    else if (scrolled <= 300){
+      setVisible(false)
+    }
+  };
+
+  window.addEventListener('scroll', toggleVisible);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Link href="#" to="home" spy={true} smooth={true} duration={500} offset={-100}>
+      <button  id="myBtn" style={{display: visible ? 'inline' : 'none'}}
+      class="fixed z-50 bottom-10 right-8 bg-transparent w-20 h-20 drop-shadow-lg flex justify-center items-center text-blue-500 text-6xl hover:drop-shadow-2xl hover:animate-spin duration-900">
+        <FcEngineering/></button>
+        </Link>
+        <Nav name={data.name} social={data.social} />
+      <Home name={data.name} title={data.title} social={data.social} about={data.about} intro={data.intro}/>
+      <About className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8" about={data.about}/>
+      <Skills Skills={data.skills} />
+      <Projects app={data.app}/>
+      <Serices/>
+      <Contact/>
+      <Footer social={data.social} className="bg-white shadow"/>
     </div>
   );
 }
+
+
 
 export default App;
