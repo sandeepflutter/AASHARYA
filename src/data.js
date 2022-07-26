@@ -29,6 +29,8 @@ const data = {
     descr3:"We are assisted by a team of qualified and experienced engineers who are well‐ versed in the execution of all kinds of civil engineering projects, with a stubborn commitment to quality and project schedule to the entire satisfaction of all our esteemed clients/consultants both national and international.",
     descr4:"B.E. in Computer Science & Engineering \n Former IT Officer at\n Bhairabi Rural Municipality",
   },
+  
 };
 
 export default data;
+

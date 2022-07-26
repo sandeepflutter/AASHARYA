@@ -10,6 +10,7 @@ import Footer from "./components/Footer/footer";
 import Contact from "./Pages/Contact";
 import {Link} from 'react-scroll';
 import {FcEngineering} from 'react-icons/fc';
+import Team from "./components/Navbar/Navstyle";
 
 function App() {
 
@@ -39,9 +40,10 @@ function App() {
         <Nav name={data.name} social={data.social} />
       <Home name={data.name} title={data.title} social={data.social} about={data.about} intro={data.intro}/>
       <About className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8" about={data.about}/>
-      <Skills Skills={data.skills} />
+      <Skills Skills={data.skills} Idata={data.Idata}/>
       <Projects app={data.app}/>
       <Serices/>
+      <Team/>
       <Contact/>
       <Footer social={data.social} className="bg-white shadow"/>
     </div>

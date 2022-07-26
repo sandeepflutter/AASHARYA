@@ -10,7 +10,8 @@ import "swiper/css/pagination";
 const Projects = ({app: { bol, wot, aog,som,pot,wotd},}) => {
   return (
 
-<section id="project" class="text-gray-400 bg-gray-500 body-font w-full h-full">
+<section id="project" class="text-gray-400 bg-gray-900 body-font w-full h-full pt-5">
+
   <div class="container px-5 mx-auto">
   <div class="flex flex-col text-center w-full mb-5">
     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white text-center">My Projects</h1>
@@ -205,6 +206,35 @@ const Projects = ({app: { bol, wot, aog,som,pot,wotd},}) => {
       </Swiper>
     </>
   </div>
+
+  <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="grid grid-cols-2 row-gap-8 md:grid-cols-4">
+        <div className="text-center">
+          <h6 className="text-3xl font-bold text-deep-purple-accent-400">
+            144
+          </h6>
+          <p className="font-bold">Total Projects</p>
+        </div>
+        <div className="text-center">
+          <h6 className="text-3xl font-bold text-deep-purple-accent-400">
+            100
+          </h6>
+          <p className="font-bold">Project Completed</p>
+        </div>
+        <div className="text-center">
+          <h6 className="text-3xl font-bold text-deep-purple-accent-400">
+            44
+          </h6>
+          <p className="font-bold">Ongoing Projects</p>
+        </div>
+        <div className="text-center">
+          <h6 className="text-3xl font-bold text-deep-purple-accent-400">
+            50
+          </h6>
+          <p className="font-bold">Happy Clients</p>
+        </div>
+      </div>
+    </div>
 </section>
   )
 }

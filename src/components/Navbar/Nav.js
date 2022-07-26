@@ -23,8 +23,8 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                   <div class="flex items-center">
                 <img alt="logo" src={logo} class="w-25 h-20"/>
                 <div>
-                <p className="font-hahmlet text-gray-200 text-[3vh] underline">ASHARYA ENGINEERING</p>
-                <p className="font-hahmlet text-red-200 text-center text-[2vh]">Build To Change</p>
+                <p className="md:text-[0.0vh]  lg:text-[3vh] font-hahmlet text-gray-200 text-[3vh] underline">ASHARYA ENGINEERING</p>
+                <p className="md:text-[0.0vh] lg:text-[2vh]  font-hahmlet text-red-200 text-center text-[2vh]">Build To Change</p>
                 </div>
                 </div>
                 </Link>
@@ -77,7 +77,7 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
               <div className="hidden md:block absolute right-40 bottom-3 ">
                 <div>
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <Link to="about" spy={true} smooth={true} offset={-10} duration={600} 
+                  <Link to="about" spy={true} smooth={true} offset={-50} duration={600} 
                   onClick={()=>setIsOpen(false)}
                   href="#"
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -85,7 +85,7 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                     About Us
                   </Link>
 
-                  <Link to="skill" spy={true} smooth={true} offset={-100} duration={600} 
+                  <Link to="skill" spy={true} smooth={true} offset={-90} duration={600} 
                   onClick={()=>setIsOpen(false)}
                   href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -93,7 +93,7 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                     Why Us
                   </Link>
 
-                  <Link to="project" spy={true} smooth={true} offset={-100} duration={600}
+                  <Link to="project" spy={true} smooth={true} offset={-90} duration={600}
                   onClick={()=>setIsOpen(false)}
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -101,12 +101,20 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                     Projects
                   </Link>
 
-                  <Link to="service" spy={true} smooth={true} offset={-20} duration={600}
+                  <Link to="service" spy={true} smooth={true} offset={-90} duration={600}
                   onClick={()=>setIsOpen(false)}
                   href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Services
+                  </Link>
+
+                  <Link to="team" spy={true} smooth={true} offset={-90} duration={600}
+                  onClick={()=>setIsOpen(false)}
+                  href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Our Team
                   </Link>
 
                   <Link to="contact" spy={true} smooth={true} offset={-100} duration={600}
@@ -179,7 +187,7 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link to="about" spy={true} smooth={true} offset={-250} duration={600} 
+                <Link to="about" spy={true} smooth={true} offset={-300} duration={600} 
                   onClick={()=>setIsOpen(false)}
                   href="#"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -187,7 +195,7 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                   About Us
                 </Link>
 
-                <Link to="skill" spy={true} smooth={true} offset={-280} duration={600} 
+                <Link to="skill" spy={true} smooth={true} offset={-350} duration={600} 
                   onClick={()=>setIsOpen(false)}
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -195,7 +203,7 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                    Why Us
                 </Link>
 
-                <Link to="project" spy={true} smooth={true} offset={-320} duration={600} 
+                <Link to="project" spy={true} smooth={true} offset={-350} duration={600} 
                   onClick={()=>setIsOpen(false)}
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -203,15 +211,22 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                   Projects
                 </Link>
 
-                <Link to="service" spy={true} smooth={true} offset={-250} duration={600} 
+                <Link to="service" spy={true} smooth={true} offset={-350} duration={600} 
                   onClick={()=>setIsOpen(false)}
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  My services
+                  Services
                 </Link>
+                <Link to="team" spy={true} smooth={true} offset={-350} duration={600}
+                  onClick={()=>setIsOpen(false)}
+                  href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Our Team
+                  </Link>
 
-                <Link to="contact" spy={true} smooth={true} offset={-300} duration={600} 
+                <Link to="contact" spy={true} smooth={true} offset={-350} duration={600} 
                   onClick={()=>setIsOpen(false)}
                   href="#"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
