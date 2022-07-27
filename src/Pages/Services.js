@@ -50,7 +50,7 @@ const Services = () => {
                  <BiDesktop className=" w-20 h-20 fill-green-800" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
-                  Refreshing Design
+               Survey and Mapping
                </h4>
                <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom
@@ -85,7 +85,7 @@ const Services = () => {
                 
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
-                  Based on Tailwind CSS
+               Estimating And Costing
                </h4>
                <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom
@@ -121,7 +121,7 @@ const Services = () => {
                   <BiDesktop className=" w-20 h-20 fill-green-800" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
-                  100+ Components
+               Detailed Drawing
                </h4>
                <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom
@@ -157,7 +157,7 @@ const Services = () => {
                   <BiDesktop className=" w-20 h-20 fill-green-800" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
-                  Speed Optimized
+               Exterior Building Design
                </h4>
                <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom
@@ -193,7 +193,7 @@ const Services = () => {
                   <BiDesktop className=" w-20 h-20 fill-green-800" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
-                  Fully Customizable
+               Muncipal Drawing
                </h4>
                <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom
@@ -229,7 +229,7 @@ const Services = () => {
                  <BiDesktop className=" w-20 h-20 fill-green-800" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
-                  Regular Updates
+               Valuation
                </h4>
                <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom
@@ -265,7 +265,7 @@ const Services = () => {
                  <BiDesktop className=" w-20 h-20 fill-green-800" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
-                  Regular Updates
+               Interior facilities
                </h4>
                <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom
@@ -301,7 +301,7 @@ const Services = () => {
                  <BiDesktop className=" w-20 h-20 fill-green-800" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
-                  Regular Updates
+               Tender Document, Bid Evaluation and Contract Assistance
                </h4>
                <p class="text-body-color">
                   We dejoy working with discerning clients, people for whom

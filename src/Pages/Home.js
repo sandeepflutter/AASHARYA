@@ -16,7 +16,7 @@ const Home = ({intro, about:{ descr2} }) => {
     <p className="font-titillium text-[6vh] font-bold text-red-200 ">{intro}</p>
           <p className="text-[3vh] text-red-500 px-[14vh] w-auto inline-block border-b-2"/>
     <p className=" md:text-[3vh] lg:text-[4vh] font-lora text-[2vh] text-center md:text-center text-white leading-relaxed mt-5 font-bold">
-    To procure projects at competitive pricing, provide safe working conditions anddeliver quality work within reasonable time frame. 
+    To procure projects at competitive pricing, provide safe working conditions and deliver quality work within reasonable time frame. 
         <div>
         </div>
       </p>
