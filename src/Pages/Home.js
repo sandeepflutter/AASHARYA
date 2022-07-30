@@ -1,9 +1,7 @@
 import React from 'react';
-import profile from "../Assest/logo2.jpg";
 import {FaHandshake} from 'react-icons/fa';
 import {ImArrowDown} from 'react-icons/im';
 import { Link } from 'react-scroll';
-import pp from '../Assest/1.jpg';
 import hp from '../Assest/3.jpg';
 
 

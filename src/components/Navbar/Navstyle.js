@@ -13,13 +13,8 @@ import { Pagination } from "swiper";
 
 
 
-
-
-
 const Team = () => {
   return (
-    
-
 <section id="team" class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-5 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
@@ -39,8 +34,6 @@ const Team = () => {
     className="mySwiper"
   >
  
-
-
       <SwiperSlide>
         <div class="h-full pr-10 w-[40vh] flex flex-col items-center text-center pb-4" >
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src={d}/>
@@ -105,13 +98,10 @@ const Team = () => {
           </div>
         </div>
       </SwiperSlide>
+      
 
       <SwiperSlide>
-        <div class="h-full flex flex-col items-center text-center w-[40vh] pr-10">
-         
-        </div>
       </SwiperSlide>
-    
     </Swiper>
   </div>
 </section>
