@@ -147,7 +147,7 @@ const Projects = ({app: { bol, wot, aog,som,pot,wotd},}) => {
         type="button"  >
           
           <Tippy content="Hello">
-    <button>My button</button>
+    <button>My buttonh</button>
   </Tippy>
  
       <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
