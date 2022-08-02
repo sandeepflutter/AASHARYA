@@ -9,9 +9,9 @@ import "swiper/css/pagination";
 import Idata from "./../Idata";
 import Info from "./../info";
 
-import Tippy from 'tippy.js';
 import 'tippy.js/dist/tippy.css';
 import 'tippy.js/animations/shift-away.css';
+import Tippy from '@tippyjs/react';
 
 import React from 'react';
 
@@ -25,6 +25,7 @@ const Projects = ({app: { bol, wot, aog,som,pot,wotd},}) => {
 
   return (
 <section id="project" class="text-gray-400 bg-gray-900 body-font w-full h-full pt-5">
+
   <div class="container px-5 mx-auto">
   <div class="flex flex-col text-center w-full mb-5">
     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white text-center">My Projects</h1>
@@ -65,96 +66,13 @@ const Projects = ({app: { bol, wot, aog,som,pot,wotd},}) => {
        
 
         <SwiperSlide>
-       <div class=" rounded overflow-hidden">
+        <Tippy content={Idata[0].detail} placement='right'>
+       <button class=" rounded overflow-hidden">
       <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
       <div className="flex justify-between px-4 bg-slate-600" >
         <div>
         <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">PROJECT NAME</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">DATE</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">WORK</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-      </div>
-    </div>
-        </SwiperSlide>
-        <SwiperSlide>
-       <div class=" rounded overflow-hidden">
-      <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
-      <div className="flex justify-between px-4 bg-slate-600" >
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">PROJECT NAME</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">DATE</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">WORK</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-      </div>
-    </div>
-        </SwiperSlide>
-        <SwiperSlide>
-       <div class=" rounded overflow-hidden">
-      <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
-      <div className="flex justify-between px-4 bg-slate-600" >
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">PROJECT NAME</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">DATE</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">WORK</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-      </div>
-    </div>
-        </SwiperSlide>
-        <SwiperSlide>
-       <div class=" rounded overflow-hidden">
-      <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
-      <div className="flex justify-between px-4 bg-slate-600" >
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">PROJECT NAME</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">DATE</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">WORK</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">Hello</p>
-        </div>
-      </div>
-    </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          
-       
-       <button class=" rounded overflow-hidden" id="myButton"
-        type="button"  >
-          
-          <Tippy content="Hello">
-    <button>My buttonh</button>
-  </Tippy>
- 
-      <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
-      <div className="flex justify-between px-4 bg-slate-600" >
-        <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">PROJECT NAME</p>
-        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">  <Info title={Idata[0].title}/></p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info title={Idata[0].title}/></p>
         </div>
         <div>
         <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">DATE</p>
@@ -166,6 +84,94 @@ const Projects = ({app: { bol, wot, aog,som,pot,wotd},}) => {
         </div>
       </div>
     </button>
+    </Tippy>
+        </SwiperSlide>
+        <SwiperSlide>
+        <Tippy content={Idata[1].detail} placement='right'>
+       <button class=" rounded overflow-hidden">
+      <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
+      <div className="flex justify-between px-4 bg-slate-600" >
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">PROJECT NAME</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info title={Idata[1].title}/></p>
+        </div>
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">DATE</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info date={Idata[1].date}/></p>
+        </div>
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">WORK</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info work={Idata[1].work}/></p>
+        </div>
+      </div>
+    </button>
+    </Tippy>
+        </SwiperSlide>
+        <SwiperSlide>
+        <Tippy content={Idata[2].detail} placement='right'>
+       <button class=" rounded overflow-hidden">
+      <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
+      <div className="flex justify-between px-4 bg-slate-600" >
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">PROJECT NAME</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info title={Idata[2].title}/></p>
+        </div>
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">DATE</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info date={Idata[2].date}/></p>
+        </div>
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">WORK</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info work={Idata[2].work}/></p>
+        </div>
+      </div>
+    </button>
+    </Tippy>
+        </SwiperSlide>
+        <SwiperSlide>
+        <Tippy content={Idata[3].detail} placement='right'>
+       <button class=" rounded overflow-hidden">
+      <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
+      <div className="flex justify-between px-4 bg-slate-600" >
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">PROJECT NAME</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info title={Idata[3].title}/></p>
+        </div>
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">DATE</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info date={Idata[3].date}/></p>
+        </div>
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">WORK</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info work={Idata[3].work}/></p>
+        </div>
+      </div>
+    </button>
+    </Tippy>
+        </SwiperSlide>
+        <SwiperSlide>
+          
+        <Tippy content={Idata[4].detail} placement='right'>
+       <button class=" rounded overflow-hidden" id="myButton"
+        type="button"  >
+ 
+      <img class="w-full h-full object-cover object-center" src={bg} alt="Mountain"/>
+      <div className="flex justify-between px-4 bg-slate-600" >
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">PROJECT NAME</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">  <Info title={Idata[4].title}/></p>
+        </div>
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">DATE</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info date={Idata[4].date}/></p>
+        </div>
+        <div>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]">WORK</p>
+        <p class="text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh]"><Info work={Idata[4].work}/></p>
+        </div>
+      </div>
+    </button>
+    </Tippy>
         </SwiperSlide>
       </Swiper>
     </>
