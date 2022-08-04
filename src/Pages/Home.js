@@ -28,7 +28,7 @@ const Home = ({intro, about:{ descr2} }) => {
 </button>
     </Link>
     <div className=" flex flex-col items-end mt-10">
-   <Link to="about" spy={true} smooth={true} offset={-10} duration={600} href="#">
+   <Link to="about" spy={true} smooth={true} offset={-50} duration={600} href="#">
   <ImArrowDown class="animate-bounce w-10 h-10 text-white"/>
    </Link>
   </div>
