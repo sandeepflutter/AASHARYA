@@ -3,7 +3,6 @@ import u from './../../Assest/u.jpg';
 import n from './../../Assest/n.jpg';
 import d from './../../Assest/d.jpg';
 import um from './../../Assest/um.jpg';
-import san from './../../Assest/san.png';
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -71,7 +70,7 @@ const Team = () => {
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src={u}/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Utsav Pun</h2>
-            <h3 class="text-gray-500 mb-3">Head Of Finance</h3>
+            <h3 class="text-gray-500 mb-3">Department Of Finance</h3>
             <p class="mb-4">Management graduate from Danfe.</p>
           </div>
         </div>
@@ -82,24 +81,11 @@ const Team = () => {
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src={um}/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Siddhant Shrestha</h2>
-            <h3 class="text-gray-500 mb-3">Head Of Finance</h3>
+            <h3 class="text-gray-500 mb-3">Construction & Supervision</h3>
             <p class="mb-4">Civil Engineering graduate from Morgan Engineering College.</p>
           </div>
         </div>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <div class="h-full flex flex-col items-center text-center w-[40vh] pr-10">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src={san}/>
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Sandeep Budha</h2>
-            <h3 class="text-gray-500 mb-3">Software Developer</h3>
-            <p class="mb-4">Computer Science and Engineering graduate from RGIT(VTU).</p>
-          </div>
-        </div>
-      </SwiperSlide>
-      
-
+      </SwiperSlide>  
       <SwiperSlide>
       </SwiperSlide>
     </Swiper>

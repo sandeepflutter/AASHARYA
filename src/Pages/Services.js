@@ -1,5 +1,12 @@
 
-import {BiDesktop} from 'react-icons/bi'
+import {BsNewspaper} from 'react-icons/bs'
+import {TbDrone} from 'react-icons/tb'
+import {GiNotebook} from 'react-icons/gi'
+import {MdDraw} from 'react-icons/md'
+import {TbBuildingCommunity} from 'react-icons/tb'
+import {GiFamilyHouse} from 'react-icons/gi'
+import {FaMoneyCheckAlt} from 'react-icons/fa'
+import {GiSofa} from 'react-icons/gi'
 
 const Services = () => {
   return (
@@ -15,8 +22,7 @@ const Services = () => {
                   What We Offer
                </h2>
                <p class="text-base text-body-color">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+               As an engineering company, we provide a wide range of engineering services on the basis of quality and trust.
                </p>
             </div>
          </div>
@@ -47,14 +53,13 @@ const Services = () => {
                   mb-8
                   "
                   >
-                 <BiDesktop className=" w-20 h-20 fill-green-800" />
+                 <TbDrone className=" w-20 h-20 fill-red-500" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
                Survey and Mapping
                </h4>
-               <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+               <p class="text-body-color text-justify">
+               We provide accurate survey and mapping results by using the latest technology.
                </p>
             </div>
          </div>
@@ -81,15 +86,14 @@ const Services = () => {
                   mb-8
                   "
                   >
-                  <BiDesktop className=" w-20 h-20 fill-green-800" />
+                  <GiNotebook className=" w-20 h-20 fill-blue-500" />
                 
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
                Estimating And Costing
                </h4>
-               <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+               <p class="text-body-color text-justify">
+               In accordance with standard procedures, we provide an estimated cost of the project.
                </p>
             </div>
          </div>
@@ -118,14 +122,13 @@ const Services = () => {
                   mb-8
                   "
                   >
-                  <BiDesktop className=" w-20 h-20 fill-green-800" />
+                  <MdDraw className=" w-20 h-20 fill-teal-600" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
                Detailed Drawing
                </h4>
-               <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+               <p class="text-body-color text-justify">
+               We simplify architectural concepts so that even laymen can understand them.
                </p>
             </div>
          </div>
@@ -154,14 +157,13 @@ const Services = () => {
                   mb-8
                   "
                   >
-                  <BiDesktop className=" w-20 h-20 fill-green-800" />
+                  < GiFamilyHouse className=" w-20 h-20 fill-red-500" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
                Exterior Building Design
                </h4>
-               <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+               <p class="text-body-color text-justify">
+               We offer exterior design in 2D and 3D, as well as render images and videos.
                </p>
             </div>
          </div>
@@ -190,14 +192,13 @@ const Services = () => {
                   mb-8
                   "
                   >
-                  <BiDesktop className=" w-20 h-20 fill-green-800" />
+                  <TbBuildingCommunity className=" w-20 h-20 fill-pink-300" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
                Muncipal Drawing
                </h4>
-               <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+               <p class="text-body-color text-justify">
+               We create designs based on municipal standards and principles.
                </p>
             </div>
          </div>
@@ -226,14 +227,13 @@ const Services = () => {
                   mb-8
                   "
                   >
-                 <BiDesktop className=" w-20 h-20 fill-green-800" />
+                 <FaMoneyCheckAlt className=" w-20 h-20 fill-green-500" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
                Valuation
                </h4>
-               <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+               <p class="text-body-color text-justify">
+               Providing accurate land and building valuations is one of our specialties.
                </p>
             </div>
          </div>
@@ -262,14 +262,13 @@ const Services = () => {
                   mb-8
                   "
                   >
-                 <BiDesktop className=" w-20 h-20 fill-green-800" />
+                 <GiSofa className=" w-20 h-20 fill-purple-700" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
                Interior facilities
                </h4>
-               <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+               <p class="text-body-color text-justify">
+               Depending on our clients' needs, we can provide interior design services.
                </p>
             </div>
          </div>
@@ -298,14 +297,13 @@ const Services = () => {
                   mb-8
                   "
                   >
-                 <BiDesktop className=" w-20 h-20 fill-green-800" />
+                 <BsNewspaper className=" w-20 h-20 fill-amber-700" />
                </div>
                <h4 class="font-semibold text-xl text-dark mb-3">
-               Tender Document, Bid Evaluation and Contract Assistance
+               Tender
                </h4>
-               <p class="text-body-color">
-                  We dejoy working with discerning clients, people for whom
-                  qualuty, service, integrity & aesthetics.
+               <p class="text-body-color text-justify">
+               We offer standard tender documents, bid evaluation, and contract assistance. 
                </p>
             </div>
          </div>

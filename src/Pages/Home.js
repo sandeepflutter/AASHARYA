@@ -2,7 +2,7 @@ import React from 'react';
 import {FaHandshake} from 'react-icons/fa';
 import {ImArrowDown} from 'react-icons/im';
 import { Link } from 'react-scroll';
-import hp from '../Assest/3.jpg';
+import hp from '../Assest/1.jpg';
 
 
 const Home = ({intro, about:{ descr2} }) => {
@@ -14,11 +14,11 @@ const Home = ({intro, about:{ descr2} }) => {
     <p className="font-titillium text-[6vh] font-bold text-red-200 ">{intro}</p>
           <p className="text-[3vh] text-red-500 px-[14vh] w-auto inline-block border-b-2"/>
     <p className=" md:text-[3vh] lg:text-[4vh] font-lora text-[2vh] text-center md:text-center text-white leading-relaxed mt-5 font-bold">
-    To procure projects at competitive pricing, provide safe working conditions and deliver quality work within reasonable time frame. 
+    We deliver quality work within a reasonable time frame at competitive pricing solutions for problems related to engineering. 
         <div>
         </div>
       </p>
-      <p className=" md:text-[5vh] lg:text-[7vh] font-lora text-[4vh] text-center md:text-center text-white leading-relaxed mt-5 font-bold">
+      <p className=" md:text-[3.5vh] lg:text-[5.5vh] font-lora text-[2.5vh] text-center md:text-center text-teal-700 leading-relaxed mt-5 font-bold">
         {descr2} 
         <div className="text-center mt-5">
     <Link to="contact" spy={true} smooth={true} offset={-10} duration={600} href="#">

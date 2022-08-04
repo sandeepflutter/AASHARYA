@@ -1,7 +1,6 @@
 import { Transition } from "@headlessui/react";
 import React,{useState} from "react";
 import {Link} from 'react-scroll';
-import { FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import logo from "./../../Assest/logo.png";
 import {FaYoutube}from 'react-icons/fa';
@@ -23,7 +22,7 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                   <div class="flex items-center">
                 <img alt="logo" src={logo} class="w-25 h-20"/>
                 <div>
-                <p className="md:text-[0.0vh]  lg:text-[3vh] font-hahmlet text-gray-200 text-[3vh] underline">ASHARYA ENGINEERING</p>
+                <p className="md:text-[0.0vh]  lg:text-[3vh] font-hahmlet text-gray-200 text-[3vh] underline">ASHRAYA ENGINEERING</p>
                 <p className="md:text-[0.0vh] lg:text-[2vh]  font-hahmlet text-red-200 text-center text-[2vh]">Build To Change</p>
                 </div>
                 </div>
@@ -45,7 +44,7 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                   >
                     <div className="flex items-center">
                     <FaPhoneSquareAlt className="h-5 w-5"/>
-                    <p className="pl-2">+977-9840173170</p>
+                    <p className="pl-2">+977-9808007978</p>
                     </div>
                   </div>
                   <a className="text-blue-100 hover:text-blue-600 transition-colors duration-300 pr-1"
@@ -66,11 +65,6 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
             <a className="text-blue-100 hover:text-red-400 transition-colors duration-300 pr-1"
               href={insta} target="_blank" rel="noreferrer">
               <FaInstagram className='h-8 w-8'/>
-            </a>
-
-            <a className="text-blue-100 hover:text-blue-500 transition-colors duration-300 pr-1"
-              href={linkedin} target="_blank" rel="noreferrer">
-              <FaLinkedin className='h-8 w-8'/>
             </a>
                   </span>
                   </div>
