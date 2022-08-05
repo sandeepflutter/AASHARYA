@@ -76,7 +76,7 @@ const Team = () => {
         <div class=" pr-10 h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg object-contain object-center mb-4" src={um}/>
           <div class="w-full">
-            <p class="title-font font-medium text-lg text-white text-[2.5vh]">Siddhant Shrestha</p>
+            <p class="title-font font-medium text-lg text-white text-[2.5vh]">Er. Siddhant Shrestha</p>
             <p class="text-gray-500 mb-3 text-[2.5vh]">Construction & Supervision</p>
             <p class="mb-4 text-[2.5vh]">Civil Engineering graduate from Morgan Engineering College.</p>
           </div>

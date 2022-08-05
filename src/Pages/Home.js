@@ -48,7 +48,6 @@ const Home = ({intro, about:{ descr2} }) => {
       </div>
     </div>
     </div>
-    
   );
 };
 
