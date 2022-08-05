@@ -37,9 +37,7 @@ const Home = ({intro, about:{ descr2} }) => {
     </div>
       </p>
       </div>
-
       <div>
-
       <div>
           <img
             className="md:w-[170vh] lg:w-[160vh] w-[170vh] mx-auto shadow-xl rounded-full"
@@ -48,14 +46,7 @@ const Home = ({intro, about:{ descr2} }) => {
           />
         </div>
       </div>
-
-
-      
     </div>
-
-   
-    
- 
     </div>
     
   );
