@@ -22,8 +22,8 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                   <div class="flex items-center">
                 <img alt="logo" src={logo} class="w-25 h-20"/>
                 <div>
-                <p className="md:text-[0.0vh]  lg:text-[3vh] font-hahmlet text-gray-200 text-[3vh] underline">ASHRAYA ENGINEERING</p>
-                <p className="md:text-[0.0vh] lg:text-[2vh]  font-hahmlet text-red-200 text-center text-[2vh]">Build To Change</p>
+                <p className="md:text-[0.0vh]  lg:text-[3vh] font-hahmlet text-gray-200 text-[0.0vh] underline">ASHRAYA ENGINEERING</p>
+                <p className="md:text-[0.0vh] lg:text-[2vh]  font-hahmlet text-red-200 text-[0.0vh] text-center">Build To Change</p>
                 </div>
                 </div>
                 </Link>
@@ -215,7 +215,7 @@ function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) 
                 <Link to="team" spy={true} smooth={true} offset={-350} duration={600}
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Our Team
                   </Link>

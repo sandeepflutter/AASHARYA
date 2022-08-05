@@ -25,69 +25,63 @@ const Team = () => {
 
     <Swiper
     slidesPerView={3}
-    spaceBetween={200}
-    pagination={{
-      clickable: true,
-    }}
+    spaceBetween={20}
     modules={[Pagination]}
     className="mySwiper"
   >
  
       <SwiperSlide>
-        <div class="h-full pr-10 w-[40vh] flex flex-col items-center text-center pb-4" >
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src={d}/>
+        <div class="h-full pr-10 flex flex-col items-center text-center pb-4" >
+          <img alt="team" class="flex-shrink-0 rounded-lg object-contain object-center mb-4" src={d}/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Er. Diwas Pun</h2>
-            <h3 class="text-gray-500 mb-3">C.E.O</h3>
-            <p class="mb-4">Civil Engineering graduate from Kathmandu Engineering College.</p>
-        
+            <p class="title-font font-medium text-lg text-white text-[2.5vh]">Er. Diwas Pun</p>
+            <p class="text-gray-500 mb-3 text-[2.5vh]">C.E.O</p>
+            <p class="mb-4 text-[2.5vh]">Civil Engineering graduate from Kathmandu Engineering College.</p>
           </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div class="h-full pr-10 flex flex-col items-center text-center w-[40vh]">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src={r}/>
+        <div class="h-full pr-10 flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg object-contain object-center mb-4" src={r}/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Ar. Roshna Rai</h2>
-            <h3 class="text-gray-500 mb-3">Head of Architecture</h3>
-            <p class="mb-4">Architecture graduate from Thapathali Engineering Campus.</p>
+            <p class="title-font font-medium text-lg text-white text-[2.5vh]">Ar. Roshna Rai</p>
+            <p class="text-gray-500 mb-3 text-[2.5vh]">Head of Architecture</p>
+            <p class="mb-4 text-[2.5vh]">Architecture graduate from Thapathali Engineering Campus.</p>
 
           </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div class="h-full pr-10 flex flex-col items-center text-center w-[40vh]">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src={n}/>
+        <div class="h-full pr-10 flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg object-contain object-center mb-4" src={n}/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Er. Newton Timalsina</h2>
-            <h3 class="text-gray-500 mb-3">Head of Structure</h3>
-            <p class="mb-4">Civil Engineering graduate from Kathmandu Engineering College.</p>
+            <p class="title-font font-medium text-lg text-white text-[2.5vh]">Er. Newton Timalsina</p>
+            <p class="text-gray-500 mb-3 text-[2.5vh]">Head of Structure</p>
+            <p class="mb-4 text-[2.5vh]">Civil Engineering graduate from Kathmandu Engineering College.</p>
           </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div class="h-full pr-10 flex flex-col items-center text-center w-[40vh]">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src={u}/>
+        <div class="h-full pr-10 flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg object-contain object-center mb-4" src={u}/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Utsav Pun</h2>
-            <h3 class="text-gray-500 mb-3">Department Of Finance</h3>
-            <p class="mb-4">Management graduate from Danfe.</p>
+            <p class="title-font font-medium text-lg text-white text-[2.5vh]">Utsav Pun</p>
+            <p class="text-gray-500 mb-3 text-[2.5vh]">Department Of Finance</p>
+            <p class="mb-4 text-[2.5vh]">Management graduate from Danfe.</p>
           </div>
         </div>
       </SwiperSlide>
 
       <SwiperSlide>
-        <div class=" pr-10 h-full flex flex-col items-center text-center w-[40vh]">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src={um}/>
+        <div class=" pr-10 h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg object-contain object-center mb-4" src={um}/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Siddhant Shrestha</h2>
-            <h3 class="text-gray-500 mb-3">Construction & Supervision</h3>
-            <p class="mb-4">Civil Engineering graduate from Morgan Engineering College.</p>
+            <p class="title-font font-medium text-lg text-white text-[2.5vh]">Siddhant Shrestha</p>
+            <p class="text-gray-500 mb-3 text-[2.5vh]">Construction & Supervision</p>
+            <p class="mb-4 text-[2.5vh]">Civil Engineering graduate from Morgan Engineering College.</p>
           </div>
         </div>
       </SwiperSlide>  
-      <SwiperSlide>
-      </SwiperSlide>
     </Swiper>
   </div>
 </section>
