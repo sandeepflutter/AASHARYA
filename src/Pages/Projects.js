@@ -20,20 +20,13 @@ import React from 'react';
 const Projects = () => {
 
 
-
-
-
-
-
   return (
 <section id="project" class="text-gray-400 bg-gray-900 body-font w-full h-full pt-5">
 
   <div class="container px-5 mx-auto">
   <div class="flex flex-col text-center w-full mb-5">
     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white text-center">My Projects</h1>
-    
     </div>
-
     <>
       <Swiper
         effect={"coverflow"}
@@ -54,18 +47,6 @@ const Projects = () => {
         className="mySwiper"
         
       >        
-        
-
-        
-        
-        
-        
-
-        
-        
-        
-        
-       
 
         <SwiperSlide>
         <Tippy content={Idata[0].detail} placement='right'>

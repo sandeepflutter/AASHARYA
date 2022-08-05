@@ -13,8 +13,6 @@ import {FcEngineering} from 'react-icons/fc';
 import Team from "./components/Navbar/Navstyle";
 
 function App() {
-
-
   const [visible, setVisible] = useState(false)
   
   const toggleVisible = () => {
@@ -28,7 +26,6 @@ function App() {
   };
 
   window.addEventListener('scroll', toggleVisible);
-
 
   return (
     <div>
@@ -49,7 +46,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;

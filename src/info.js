@@ -9,7 +9,6 @@ function info (props){
 <p> {props.work} </p>
 <p> {props.img1}</p>
      </div>
- 
   )
 }
 export default info;

@@ -9,7 +9,7 @@ import {AiOutlineFacebook}from 'react-icons/ai';
 import {MdEmail}from 'react-icons/md';
 import {FaPhoneSquareAlt}from 'react-icons/fa';
 
-function Nav({social: { youtube, facebook, twitter, email, linkedin, insta } }) {
+function Nav({social: { youtube, facebook, twitter, email, insta } }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="sticky top-0 z-50">
