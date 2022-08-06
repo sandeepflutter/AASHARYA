@@ -83,7 +83,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                   <Link to="skill" spy={true} smooth={true} offset={-90} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                    className="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="font-hahmlet text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   
                  >
                     Why Us
@@ -92,7 +92,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                   <Link to="project" spy={true} smooth={true} offset={-90} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                     href="#"
-                    className="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className=" font-hahmlet text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Projects
                   </Link>
@@ -100,7 +100,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                   <Link to="service" spy={true} smooth={true} offset={-90} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                    className="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="font-hahmlet text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Services
                   </Link>
@@ -108,7 +108,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                   <Link to="team" spy={true} smooth={true} offset={-90} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                    className="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="font-hahmlet text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Our Team
                   </Link>
@@ -116,7 +116,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                   <Link to="contact" spy={true} smooth={true} offset={-90} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                    className="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="font-hahmlet text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
                   </Link>
@@ -186,7 +186,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                 <Link to="about" spy={true} smooth={true} offset={-350} duration={600}  activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                  className="hover:bg-cyan-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="hover:bg-cyan-700 font-hahmlet text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About Us
                 </Link>
@@ -194,7 +194,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                 <Link to="skill" spy={true} smooth={true} offset={-350} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                  className="text-white hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white font-hahmlet hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                    Why Us
                 </Link>
@@ -202,7 +202,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                 <Link to="project" spy={true} smooth={true} offset={-370} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                  className="text-white hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white font-hahmlet hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Projects
                 </Link>
@@ -210,14 +210,14 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                 <Link to="service" spy={true} smooth={true} offset={-370} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                  className="text-white hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white font-hahmlet hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Services
                 </Link>
                 <Link to="team" spy={true} smooth={true} offset={-370} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                    className="text-white hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    className="text-white font-hahmlet hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     Our Team
                   </Link>
@@ -225,7 +225,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                 <Link to="contact" spy={true} smooth={true} offset={-370} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                  className="text-white hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white font-hahmlet hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
                 </Link>
