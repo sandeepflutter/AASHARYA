@@ -9,9 +9,16 @@ const Footer = ({social: { youtube, facebook, twitter, insta }}) => {
     <footer class="text-gray-400 bg-gray-900 body-font">
     <div class="bg-gray-800 bg-opacity-75">
       <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p class="text-gray-400 text-sm text-center sm:text-left">© 2022 ASHRAYA ENGINEERING —
+        <p class="text-gray-400 text-sm text-center sm:text-left font-titillium">© 2022 ASHRAYA ENGINEERING —
           <a href="https://twitter.com/ASHARYAENG" rel="noopener noreferrer" class="text-gray-500 ml-1" target="_blank">@ASHARYAENG</a>
         </p>
+
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <p class="text-gray-400 text-sm text-center sm:text-center font-crimson">Design & Developed by —
+          <a href="https://sandeepbudha.com.np/" rel="noopener noreferrer" class="text-red-500 ml-1" target="_blank">@Sandeep Budha</a>
+        </p>
+
+        </span>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
         <a className="text-gray-400 hover:text-blue-600 transition-colors duration-300 pr-2"
               href={facebook} target="_blank" rel="noreferrer" >

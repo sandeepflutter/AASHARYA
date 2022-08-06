@@ -21,11 +21,11 @@ const Projects = () => {
 
 
   return (
-<section id="project" class="text-gray-400 bg-gray-900 body-font w-full h-full pt-5">
+<section id="project" class="text-gray-400 bg-sky-900 body-font w-full h-full pt-5">
 
   <div class="container px-5 mx-auto">
   <div class="flex flex-col text-center w-full mb-5">
-    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white text-center">My Projects</h1>
+    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white text-center font-lora">My Projects</h1>
     </div>
     <>
       <Swiper
@@ -52,14 +52,14 @@ const Projects = () => {
         <Tippy content={Idata[0].detail} placement='right'>
        <button class=" rounded overflow-hidden">
       <img class="w-full h-full object-cover object-center" src={img5} alt="Mountain"/>
-      <div className="flex justify-between px-4 bg-slate-600" >
+      <div className="flex justify-between px-4 bg-slate-400" >
         <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline">PROJECT NAME</p>
-        <p class="text-[0.5h] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold"><Info title={Idata[0].title}/></p>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline font-lora">PROJECT NAME</p>
+        <p class="text-[0.5h] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold font-crimson"><Info title={Idata[0].title}/></p>
         </div>
         <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline">WORK</p>
-        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold"><Info work={Idata[0].work}/></p>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline font-lora">WORK</p>
+        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold font-crimson"><Info work={Idata[0].work}/></p>
         </div>
       </div>
     </button>
@@ -69,14 +69,14 @@ const Projects = () => {
         <Tippy content={Idata[1].detail} placement='right'>
        <button class=" rounded overflow-hidden">
       <img class="w-full h-full object-cover object-center" src={img2} alt="Mountain"/>
-      <div className="flex justify-between px-4 bg-slate-600" >
+      <div className="flex justify-between px-4 bg-slate-400" >
         <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline">PROJECT NAME</p>
-        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold"><Info title={Idata[1].title}/></p>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline font-lora">PROJECT NAME</p>
+        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold font-crimson"><Info title={Idata[1].title}/></p>
         </div>
         <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline">WORK</p>
-        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold"><Info work={Idata[1].work}/></p>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline font-lora">WORK</p>
+        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold font-crimson"><Info work={Idata[1].work}/></p>
         </div>
       </div>
     </button>
@@ -86,14 +86,14 @@ const Projects = () => {
         <Tippy content={Idata[2].detail} placement='right'>
        <button class=" rounded overflow-hidden">
       <img class="w-full h-full object-cover object-center" src={img4} alt="Mountain"/>
-      <div className="flex justify-between px-4 bg-slate-600" >
+      <div className="flex justify-between px-4 bg-slate-400" >
         <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline">PROJECT NAME</p>
-        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] font-bold text-black"><Info title={Idata[2].title}/></p>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline font-lora">PROJECT NAME</p>
+        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] font-bold text-black font-crimson"><Info title={Idata[2].title}/></p>
         </div>
         <div>
-        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline">WORK</p>
-        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] font-bold text-black"><Info work={Idata[2].work}/></p>
+        <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline font-lora">WORK</p>
+        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] font-bold text-black font-crimson"><Info work={Idata[2].work}/></p>
         </div>
       </div>
     </button>
@@ -111,25 +111,25 @@ const Projects = () => {
           <h6 className="text-3xl font-bold text-deep-purple-accent-400">
             5
           </h6>
-          <p className="font-bold">Total Projects</p>
+          <p className="font-bold font-crimson">Total Projects</p>
         </div>
         <div className="text-center">
-          <h6 className="text-3xl font-bold text-deep-purple-accent-400">
+          <h6 className="text-3xl font-bold text-deep-purple-accent-400 ">
             3
           </h6>
-          <p className="font-bold">Project Completed</p>
+          <p className="font-bold font-crimson">Project Completed</p>
         </div>
         <div className="text-center">
           <h6 className="text-3xl font-bold text-deep-purple-accent-400">
             2
           </h6>
-          <p className="font-bold">Ongoing Projects</p>
+          <p className="font-bold font-crimson">Ongoing Projects</p>
         </div>
         <div className="text-center">
           <h6 className="text-3xl font-bold text-deep-purple-accent-400">
             3
           </h6>
-          <p className="font-bold">Happy Clients</p>
+          <p className="font-bold font-crimson">Happy Clients</p>
         </div>
       </div>
     </div>
