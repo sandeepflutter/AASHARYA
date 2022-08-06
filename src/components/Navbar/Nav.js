@@ -183,7 +183,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link to="about" spy={true} smooth={true} offset={-300} duration={600}  activeClass="bg-cyan-700"
+                <Link to="about" spy={true} smooth={true} offset={-350} duration={600}  activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
                   className="hover:bg-cyan-700 text-white block px-3 py-2 rounded-md text-base font-medium"
