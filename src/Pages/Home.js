@@ -16,12 +16,12 @@ const Home = ({intro, about:{ descr2} }) => {
     <p className="md:text-[2.5vh] lg:text-[0.0vh]  font-titillium text-[2.5vh] font-bold text-blue-200 ">To</p>
     <p className="md:text-[3.5vh] lg:text-[0.0vh]  font-hahmlet text-[2.5vh] font-bold text-white ">ASHRAYA ENGINEERING</p>
           <p className="md:px-[24vh] text-[3vh] px-[14vh] w-auto inline-block border-b-2"/>
-    <p className="md:pt-10 lg:pt-10 px-5 md:text-[4vh] lg:text-[4.5vh] font-crimson text-[3vh] text-center text-white leading-relaxed font-bold">
+    <p className="md:pt-10 lg:pt-10 px-5 md:text-[4vh] lg:text-[4.5vh] font-crimson text-[4vh] text-center text-white leading-relaxed font-bold">
     We deliver quality work within a reasonable time frame at competitive pricing solutions for problems related to engineering. 
         <div>
         </div>
       </p>
-      <p className=" md:pt-10 lg:pt-10 md:text-[4vh] lg:text-[6vh] font-lora text-[2.5vh] text-center md:text-center text-teal-700 leading-relaxed mt-1 font-bold">
+      <p className=" md:pt-10 lg:pt-10 md:text-[4vh] lg:text-[6vh] font-lora text-[4vh] text-center md:text-center text-teal-700 leading-relaxed mt-1 font-bold">
         {descr2} 
         </p>
 </div>

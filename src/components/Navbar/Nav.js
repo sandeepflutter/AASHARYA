@@ -68,7 +68,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
             </a>
                   </span>
                   </div>
-              <div className="hidden md:block absolute right-40 bottom-3 ">
+              <div className="hidden md:block absolute right-20 bottom-3 ">
                 <div>
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link to="about" spy={true} smooth={true} offset={-90} duration={600} activeClass="bg-cyan-700"
@@ -77,7 +77,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                     className=" hover:bg-cyan-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                     
                   >
-                    About Us
+                    About
                   </Link>
 
                   <Link to="skill" spy={true} smooth={true} offset={-90} duration={600} activeClass="bg-cyan-700"
@@ -110,7 +110,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                   href="#"
                     className="font-hahmlet text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Our Team
+                    Team
                   </Link>
 
                   <Link to="contact" spy={true} smooth={true} offset={-90} duration={600} activeClass="bg-cyan-700"
@@ -188,7 +188,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                   href="#"
                   className="hover:bg-cyan-700 font-hahmlet text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  About Us
+                  About
                 </Link>
 
                 <Link to="skill" spy={true} smooth={true} offset={-350} duration={600} activeClass="bg-cyan-700"
@@ -219,7 +219,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                   href="#"
                     className="text-white font-hahmlet hover:bg-cyan-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
-                    Our Team
+                    Team
                   </Link>
 
                 <Link to="contact" spy={true} smooth={true} offset={-370} duration={600} activeClass="bg-cyan-700"

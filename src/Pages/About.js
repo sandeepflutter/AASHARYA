@@ -7,7 +7,7 @@ const About = ({about:{ descr1, descr5,descr3} }) => {
 <section id="about" class="bg-blue-100">
 
   <div class="container px-3 py-3 mx-auto flex flex-col">
-    <div class="lg:w-4/6 mx-auto">
+    <div class="lg:w-4/6 mx-auto px-5">
       <div class="flex flex-col sm:flex-row mt-10">
         <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
         <div class="flex flex-col items-center text-center justify-center">
