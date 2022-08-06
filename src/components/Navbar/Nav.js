@@ -74,7 +74,7 @@ function Nav({social: { youtube, facebook, twitter, email, insta } }) {
                   <Link to="about" spy={true} smooth={true} offset={-90} duration={600} activeClass="bg-cyan-700"
                   onClick={()=>setIsOpen(false)}
                   href="#"
-                    className=" hover:bg-cyan-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="font-hahmlet hover:bg-cyan-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                     
                   >
                     About
