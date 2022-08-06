@@ -33,6 +33,7 @@ const Projects = () => {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={3}
+
       
         coverflowEffect={{
           rotate: 50,
@@ -55,7 +56,7 @@ const Projects = () => {
       <div className="flex justify-between px-4 bg-slate-400" >
         <div>
         <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline font-lora">PROJECT NAME</p>
-        <p class="text-[0.5h] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold font-crimson"><Info title={Idata[0].title}/></p>
+        <p class="text-[0.5vh] sm:text-[0.5vh] md:text-[1vh] lg:text-[2vh] text-black font-bold font-crimson"><Info title={Idata[0].title}/></p>
         </div>
         <div>
         <p class="font-bold text-[1vh] sm:text-[1vh] md:text-[1.5vh] lg:text-[2.5vh] text-black underline font-lora">WORK</p>
